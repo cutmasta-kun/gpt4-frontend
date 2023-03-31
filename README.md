@@ -6,6 +6,29 @@ This project demonstrates the creation of a web application using the GPT-4 mode
 
 ---
 
+### Log Entry 3 - Frontend and Backend Routing Configuration
+
+**created_at:** 2023-03-31T23:24:00+00:00 
+**developer:** [cutmasta-kun](https://github.com/cutmasta-kun)  
+**alias:** a7c4e5ce498c4b9cc0cc02c1a3e7e3fe
+
+We configured the backend to deliver the frontend and set up routes for assets and a future API. We also added a simple, colorful access logging middleware to the backend.
+
+**Backend Updates:**
+
+- Updated index.ts to serve the compiled Svelte frontend at the root path (/).
+- Set up a route for frontend assets (JS, CSS, images, etc.) at /assets. 
+Established a route for the future REST API at /api.
+- Added a middleware function to log access to the server with colorful console output.
+
+**Next Steps:**
+
+- 🌐 Frontend: Continue developing the user interface with Svelte.
+- ⚙️ Backend: Implement the API endpoints, integrate the openai NPM package for GPT-4 communication, and test the API.
+- 🚀 Deployment: Create Dockerfiles for the backend, use Docker Compose for orchestration, and deploy the application.
+
+---
+
 ### Log Entry 2 - OpenAI NPM Package and Removing Python Service
 
 **created_at:** 2023-03-31T22:58:00+00:00  
